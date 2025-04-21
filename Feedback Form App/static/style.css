@@ -1,0 +1,136 @@
+/* Custom styles for Feedback Form App */
+
+/* General styles */
+body {
+    background-color: #edffc9;
+    color: #333;
+}
+
+/* Header styles */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background: #013846;
+    /* color: antiquewhite; */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Form styles */
+.container {
+    max-width: 800px;
+}
+
+form {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+    display: block;
+}
+.form-control{
+    margin-bottom: 1rem;
+
+}
+
+.form-control:focus {
+    border-color: #edffc9;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+form .form-control {
+    margin-bottom: 1rem;
+}
+
+.position-relative {
+    position: relative;
+    padding-bottom: 1.5rem;
+}
+
+.word-counter {
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
+    font-size: 0.9rem;
+    color: #edffc9;
+}
+
+.custom-submit-btn {
+    display: block;
+    margin: 0.5rem auto;
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+    transition: all 0.4s ease, transform 0.3s ease;
+    box-shadow: 1px 1px 6px 1px rgb(252, 165, 2);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 2rem;
+}
+
+.custom-submit-btn:hover {
+    background: linear-gradient(90deg, #28a745, #218838);
+    border-color: #edffc9;
+    transform: scale(1.05);
+    box-shadow: 1px 1px 6px 1px rgb(252, 165, 3);
+    color: rgb(252, 165, 3);
+}
+
+/* Table styles */
+.table-responsive {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table thead th {
+    background-color: #0d6efd;
+    color: white;
+    border-color: #0a58ca;
+}
+
+/* Alert styles */
+.alert {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Button enhancements */
+.btn {
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+}
+
+.btn-primary {
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(13, 110, 253, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+    
+    form {
+        padding: 1rem;
+    }
+}
